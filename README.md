@@ -1,33 +1,26 @@
 # 【Playwright MCP】を利用したエージェントを【LangGraph】で構築する
 
-[こちら](https://zenn.dev/asap)で記事を書いていますので、参照ください。
-
-## スクリプト解説
-
-### praywrite_mcp_langchain_tools.py
+参考[Zenn](https://zenn.dev/asap)[GitHub](https://github.com/personabb/langchain_asap_sample)
 
 ## 実行方法
 
-### 前提条件
-- Google AI StudioのAPIキーを取得済みであること
-- MCPサーバーが設定済みであること(PlayWrite MCPが利用できること)
-
 ### 環境設定
-1. `.env`ファイルを作成し、Google AI StudioのAPIキーを設定:
+1. `.env`ファイルを作成し、OpenAIのAPIキーを設定:
 ```
-GOOGLE_APIKEY=your_api_key_here
+OPENAI_API_KEY=your_api_key_here
+OPENAI_MODEL=gpt-4o
 ```
 
 2. `mcp_config.json`にMCPサーバーの設定を記述
 
 ### 依存関係のインストール
 ```bash
-pip install -r requirements.txt
+pipenv install -r requirements.txt
 ```
 
 ### スクリプトの実行
 ```bash
-python praywrite_mcp_langchain_tools.py
+python main.py
 ```
 
 ### 使用方法
