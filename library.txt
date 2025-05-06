@@ -1,0 +1,952 @@
+dotenv==0.9.9
+└── python-dotenv 
+grpcio-status==1.72.0rc1
+├── googleapis-common-protos 
+│   └── protobuf 
+├── grpcio 
+└── protobuf 
+langchain-community==0.3.23
+├── aiohttp 
+│   ├── aiohappyeyeballs 
+│   ├── aiosignal 
+│   │   └── frozenlist 
+│   ├── attrs 
+│   ├── frozenlist 
+│   ├── multidict 
+│   ├── propcache 
+│   └── yarl 
+│       ├── idna 
+│       ├── multidict 
+│       └── propcache 
+├── dataclasses-json 
+│   ├── marshmallow 
+│   │   └── packaging 
+│   └── typing-inspect 
+│       ├── mypy_extensions 
+│       └── typing_extensions 
+├── httpx-sse 
+├── langchain 
+│   ├── langchain-core 
+│   │   ├── jsonpatch 
+│   │   │   └── jsonpointer 
+│   │   ├── langsmith 
+│   │   │   ├── httpx 
+│   │   │   │   ├── anyio 
+│   │   │   │   │   ├── idna 
+│   │   │   │   │   ├── sniffio 
+│   │   │   │   │   └── typing_extensions 
+│   │   │   │   ├── certifi 
+│   │   │   │   ├── httpcore 
+│   │   │   │   │   ├── certifi 
+│   │   │   │   │   └── h11 
+│   │   │   │   └── idna 
+│   │   │   ├── orjson 
+│   │   │   ├── packaging 
+│   │   │   ├── pydantic 
+│   │   │   │   ├── annotated-types 
+│   │   │   │   ├── pydantic_core 
+│   │   │   │   │   └── typing_extensions 
+│   │   │   │   ├── typing_extensions 
+│   │   │   │   └── typing-inspection 
+│   │   │   │       └── typing_extensions 
+│   │   │   ├── requests 
+│   │   │   │   ├── certifi 
+│   │   │   │   ├── charset-normalizer 
+│   │   │   │   ├── idna 
+│   │   │   │   └── urllib3 
+│   │   │   ├── requests-toolbelt 
+│   │   │   │   └── requests 
+│   │   │   │       ├── certifi 
+│   │   │   │       ├── charset-normalizer 
+│   │   │   │       ├── idna 
+│   │   │   │       └── urllib3 
+│   │   │   └── zstandard 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── PyYAML 
+│   │   ├── tenacity 
+│   │   └── typing_extensions 
+│   ├── langchain-text-splitters 
+│   │   └── langchain-core 
+│   │       ├── jsonpatch 
+│   │       │   └── jsonpointer 
+│   │       ├── langsmith 
+│   │       │   ├── httpx 
+│   │       │   │   ├── anyio 
+│   │       │   │   │   ├── idna 
+│   │       │   │   │   ├── sniffio 
+│   │       │   │   │   └── typing_extensions 
+│   │       │   │   ├── certifi 
+│   │       │   │   ├── httpcore 
+│   │       │   │   │   ├── certifi 
+│   │       │   │   │   └── h11 
+│   │       │   │   └── idna 
+│   │       │   ├── orjson 
+│   │       │   ├── packaging 
+│   │       │   ├── pydantic 
+│   │       │   │   ├── annotated-types 
+│   │       │   │   ├── pydantic_core 
+│   │       │   │   │   └── typing_extensions 
+│   │       │   │   ├── typing_extensions 
+│   │       │   │   └── typing-inspection 
+│   │       │   │       └── typing_extensions 
+│   │       │   ├── requests 
+│   │       │   │   ├── certifi 
+│   │       │   │   ├── charset-normalizer 
+│   │       │   │   ├── idna 
+│   │       │   │   └── urllib3 
+│   │       │   ├── requests-toolbelt 
+│   │       │   │   └── requests 
+│   │       │   │       ├── certifi 
+│   │       │   │       ├── charset-normalizer 
+│   │       │   │       ├── idna 
+│   │       │   │       └── urllib3 
+│   │       │   └── zstandard 
+│   │       ├── packaging 
+│   │       ├── pydantic 
+│   │       │   ├── annotated-types 
+│   │       │   ├── pydantic_core 
+│   │       │   │   └── typing_extensions 
+│   │       │   ├── typing_extensions 
+│   │       │   └── typing-inspection 
+│   │       │       └── typing_extensions 
+│   │       ├── PyYAML 
+│   │       ├── tenacity 
+│   │       └── typing_extensions 
+│   ├── langsmith 
+│   │   ├── httpx 
+│   │   │   ├── anyio 
+│   │   │   │   ├── idna 
+│   │   │   │   ├── sniffio 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── certifi 
+│   │   │   ├── httpcore 
+│   │   │   │   ├── certifi 
+│   │   │   │   └── h11 
+│   │   │   └── idna 
+│   │   ├── orjson 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── requests 
+│   │   │   ├── certifi 
+│   │   │   ├── charset-normalizer 
+│   │   │   ├── idna 
+│   │   │   └── urllib3 
+│   │   ├── requests-toolbelt 
+│   │   │   └── requests 
+│   │   │       ├── certifi 
+│   │   │       ├── charset-normalizer 
+│   │   │       ├── idna 
+│   │   │       └── urllib3 
+│   │   └── zstandard 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── PyYAML 
+│   ├── requests 
+│   │   ├── certifi 
+│   │   ├── charset-normalizer 
+│   │   ├── idna 
+│   │   └── urllib3 
+│   └── SQLAlchemy 
+│       ├── greenlet 
+│       └── typing_extensions 
+├── langchain-core 
+│   ├── jsonpatch 
+│   │   └── jsonpointer 
+│   ├── langsmith 
+│   │   ├── httpx 
+│   │   │   ├── anyio 
+│   │   │   │   ├── idna 
+│   │   │   │   ├── sniffio 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── certifi 
+│   │   │   ├── httpcore 
+│   │   │   │   ├── certifi 
+│   │   │   │   └── h11 
+│   │   │   └── idna 
+│   │   ├── orjson 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── requests 
+│   │   │   ├── certifi 
+│   │   │   ├── charset-normalizer 
+│   │   │   ├── idna 
+│   │   │   └── urllib3 
+│   │   ├── requests-toolbelt 
+│   │   │   └── requests 
+│   │   │       ├── certifi 
+│   │   │       ├── charset-normalizer 
+│   │   │       ├── idna 
+│   │   │       └── urllib3 
+│   │   └── zstandard 
+│   ├── packaging 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── PyYAML 
+│   ├── tenacity 
+│   └── typing_extensions 
+├── langsmith 
+│   ├── httpx 
+│   │   ├── anyio 
+│   │   │   ├── idna 
+│   │   │   ├── sniffio 
+│   │   │   └── typing_extensions 
+│   │   ├── certifi 
+│   │   ├── httpcore 
+│   │   │   ├── certifi 
+│   │   │   └── h11 
+│   │   └── idna 
+│   ├── orjson 
+│   ├── packaging 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── requests 
+│   │   ├── certifi 
+│   │   ├── charset-normalizer 
+│   │   ├── idna 
+│   │   └── urllib3 
+│   ├── requests-toolbelt 
+│   │   └── requests 
+│   │       ├── certifi 
+│   │       ├── charset-normalizer 
+│   │       ├── idna 
+│   │       └── urllib3 
+│   └── zstandard 
+├── numpy 
+├── pydantic-settings 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── python-dotenv 
+│   └── typing-inspection 
+│       └── typing_extensions 
+├── PyYAML 
+├── requests 
+│   ├── certifi 
+│   ├── charset-normalizer 
+│   ├── idna 
+│   └── urllib3 
+├── SQLAlchemy 
+│   ├── greenlet 
+│   └── typing_extensions 
+└── tenacity 
+langchain-google-genai==2.1.4
+├── filetype 
+├── google-ai-generativelanguage 
+│   ├── google-api-core 
+│   │   ├── google-auth 
+│   │   │   ├── cachetools 
+│   │   │   ├── pyasn1_modules 
+│   │   │   │   └── pyasn1 
+│   │   │   └── rsa 
+│   │   │       └── pyasn1 
+│   │   ├── googleapis-common-protos 
+│   │   │   └── protobuf 
+│   │   ├── proto-plus 
+│   │   │   └── protobuf 
+│   │   ├── protobuf 
+│   │   └── requests 
+│   │       ├── certifi 
+│   │       ├── charset-normalizer 
+│   │       ├── idna 
+│   │       └── urllib3 
+│   ├── google-auth 
+│   │   ├── cachetools 
+│   │   ├── pyasn1_modules 
+│   │   │   └── pyasn1 
+│   │   └── rsa 
+│   │       └── pyasn1 
+│   ├── proto-plus 
+│   │   └── protobuf 
+│   └── protobuf 
+├── langchain-core 
+│   ├── jsonpatch 
+│   │   └── jsonpointer 
+│   ├── langsmith 
+│   │   ├── httpx 
+│   │   │   ├── anyio 
+│   │   │   │   ├── idna 
+│   │   │   │   ├── sniffio 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── certifi 
+│   │   │   ├── httpcore 
+│   │   │   │   ├── certifi 
+│   │   │   │   └── h11 
+│   │   │   └── idna 
+│   │   ├── orjson 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── requests 
+│   │   │   ├── certifi 
+│   │   │   ├── charset-normalizer 
+│   │   │   ├── idna 
+│   │   │   └── urllib3 
+│   │   ├── requests-toolbelt 
+│   │   │   └── requests 
+│   │   │       ├── certifi 
+│   │   │       ├── charset-normalizer 
+│   │   │       ├── idna 
+│   │   │       └── urllib3 
+│   │   └── zstandard 
+│   ├── packaging 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── PyYAML 
+│   ├── tenacity 
+│   └── typing_extensions 
+└── pydantic 
+    ├── annotated-types 
+    ├── pydantic_core 
+    │   └── typing_extensions 
+    ├── typing_extensions 
+    └── typing-inspection 
+        └── typing_extensions 
+langchain-mcp-adapters==0.0.10
+├── langchain-core 
+│   ├── jsonpatch 
+│   │   └── jsonpointer 
+│   ├── langsmith 
+│   │   ├── httpx 
+│   │   │   ├── anyio 
+│   │   │   │   ├── idna 
+│   │   │   │   ├── sniffio 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── certifi 
+│   │   │   ├── httpcore 
+│   │   │   │   ├── certifi 
+│   │   │   │   └── h11 
+│   │   │   └── idna 
+│   │   ├── orjson 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── requests 
+│   │   │   ├── certifi 
+│   │   │   ├── charset-normalizer 
+│   │   │   ├── idna 
+│   │   │   └── urllib3 
+│   │   ├── requests-toolbelt 
+│   │   │   └── requests 
+│   │   │       ├── certifi 
+│   │   │       ├── charset-normalizer 
+│   │   │       ├── idna 
+│   │   │       └── urllib3 
+│   │   └── zstandard 
+│   ├── packaging 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── PyYAML 
+│   ├── tenacity 
+│   └── typing_extensions 
+└── mcp 
+    ├── anyio 
+    │   ├── idna 
+    │   ├── sniffio 
+    │   └── typing_extensions 
+    ├── httpx 
+    │   ├── anyio 
+    │   │   ├── idna 
+    │   │   ├── sniffio 
+    │   │   └── typing_extensions 
+    │   ├── certifi 
+    │   ├── httpcore 
+    │   │   ├── certifi 
+    │   │   └── h11 
+    │   └── idna 
+    ├── httpx-sse 
+    ├── pydantic 
+    │   ├── annotated-types 
+    │   ├── pydantic_core 
+    │   │   └── typing_extensions 
+    │   ├── typing_extensions 
+    │   └── typing-inspection 
+    │       └── typing_extensions 
+    ├── pydantic-settings 
+    │   ├── pydantic 
+    │   │   ├── annotated-types 
+    │   │   ├── pydantic_core 
+    │   │   │   └── typing_extensions 
+    │   │   ├── typing_extensions 
+    │   │   └── typing-inspection 
+    │   │       └── typing_extensions 
+    │   ├── python-dotenv 
+    │   └── typing-inspection 
+    │       └── typing_extensions 
+    ├── python-multipart 
+    ├── sse-starlette 
+    │   ├── anyio 
+    │   │   ├── idna 
+    │   │   ├── sniffio 
+    │   │   └── typing_extensions 
+    │   └── starlette 
+    │       └── anyio 
+    │           ├── idna 
+    │           ├── sniffio 
+    │           └── typing_extensions 
+    ├── starlette 
+    │   └── anyio 
+    │       ├── idna 
+    │       ├── sniffio 
+    │       └── typing_extensions 
+    └── uvicorn 
+        ├── click 
+        └── h11 
+langchain-openai==0.3.16
+├── langchain-core 
+│   ├── jsonpatch 
+│   │   └── jsonpointer 
+│   ├── langsmith 
+│   │   ├── httpx 
+│   │   │   ├── anyio 
+│   │   │   │   ├── idna 
+│   │   │   │   ├── sniffio 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── certifi 
+│   │   │   ├── httpcore 
+│   │   │   │   ├── certifi 
+│   │   │   │   └── h11 
+│   │   │   └── idna 
+│   │   ├── orjson 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── requests 
+│   │   │   ├── certifi 
+│   │   │   ├── charset-normalizer 
+│   │   │   ├── idna 
+│   │   │   └── urllib3 
+│   │   ├── requests-toolbelt 
+│   │   │   └── requests 
+│   │   │       ├── certifi 
+│   │   │       ├── charset-normalizer 
+│   │   │       ├── idna 
+│   │   │       └── urllib3 
+│   │   └── zstandard 
+│   ├── packaging 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── PyYAML 
+│   ├── tenacity 
+│   └── typing_extensions 
+├── openai 
+│   ├── anyio 
+│   │   ├── idna 
+│   │   ├── sniffio 
+│   │   └── typing_extensions 
+│   ├── distro 
+│   ├── httpx 
+│   │   ├── anyio 
+│   │   │   ├── idna 
+│   │   │   ├── sniffio 
+│   │   │   └── typing_extensions 
+│   │   ├── certifi 
+│   │   ├── httpcore 
+│   │   │   ├── certifi 
+│   │   │   └── h11 
+│   │   └── idna 
+│   ├── jiter 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── sniffio 
+│   ├── tqdm 
+│   └── typing_extensions 
+└── tiktoken 
+    ├── regex 
+    └── requests 
+        ├── certifi 
+        ├── charset-normalizer 
+        ├── idna 
+        └── urllib3 
+langchain-tavily==0.1.6
+├── aiohttp 
+│   ├── aiohappyeyeballs 
+│   ├── aiosignal 
+│   │   └── frozenlist 
+│   ├── attrs 
+│   ├── frozenlist 
+│   ├── multidict 
+│   ├── propcache 
+│   └── yarl 
+│       ├── idna 
+│       ├── multidict 
+│       └── propcache 
+├── langchain 
+│   ├── langchain-core 
+│   │   ├── jsonpatch 
+│   │   │   └── jsonpointer 
+│   │   ├── langsmith 
+│   │   │   ├── httpx 
+│   │   │   │   ├── anyio 
+│   │   │   │   │   ├── idna 
+│   │   │   │   │   ├── sniffio 
+│   │   │   │   │   └── typing_extensions 
+│   │   │   │   ├── certifi 
+│   │   │   │   ├── httpcore 
+│   │   │   │   │   ├── certifi 
+│   │   │   │   │   └── h11 
+│   │   │   │   └── idna 
+│   │   │   ├── orjson 
+│   │   │   ├── packaging 
+│   │   │   ├── pydantic 
+│   │   │   │   ├── annotated-types 
+│   │   │   │   ├── pydantic_core 
+│   │   │   │   │   └── typing_extensions 
+│   │   │   │   ├── typing_extensions 
+│   │   │   │   └── typing-inspection 
+│   │   │   │       └── typing_extensions 
+│   │   │   ├── requests 
+│   │   │   │   ├── certifi 
+│   │   │   │   ├── charset-normalizer 
+│   │   │   │   ├── idna 
+│   │   │   │   └── urllib3 
+│   │   │   ├── requests-toolbelt 
+│   │   │   │   └── requests 
+│   │   │   │       ├── certifi 
+│   │   │   │       ├── charset-normalizer 
+│   │   │   │       ├── idna 
+│   │   │   │       └── urllib3 
+│   │   │   └── zstandard 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── PyYAML 
+│   │   ├── tenacity 
+│   │   └── typing_extensions 
+│   ├── langchain-text-splitters 
+│   │   └── langchain-core 
+│   │       ├── jsonpatch 
+│   │       │   └── jsonpointer 
+│   │       ├── langsmith 
+│   │       │   ├── httpx 
+│   │       │   │   ├── anyio 
+│   │       │   │   │   ├── idna 
+│   │       │   │   │   ├── sniffio 
+│   │       │   │   │   └── typing_extensions 
+│   │       │   │   ├── certifi 
+│   │       │   │   ├── httpcore 
+│   │       │   │   │   ├── certifi 
+│   │       │   │   │   └── h11 
+│   │       │   │   └── idna 
+│   │       │   ├── orjson 
+│   │       │   ├── packaging 
+│   │       │   ├── pydantic 
+│   │       │   │   ├── annotated-types 
+│   │       │   │   ├── pydantic_core 
+│   │       │   │   │   └── typing_extensions 
+│   │       │   │   ├── typing_extensions 
+│   │       │   │   └── typing-inspection 
+│   │       │   │       └── typing_extensions 
+│   │       │   ├── requests 
+│   │       │   │   ├── certifi 
+│   │       │   │   ├── charset-normalizer 
+│   │       │   │   ├── idna 
+│   │       │   │   └── urllib3 
+│   │       │   ├── requests-toolbelt 
+│   │       │   │   └── requests 
+│   │       │   │       ├── certifi 
+│   │       │   │       ├── charset-normalizer 
+│   │       │   │       ├── idna 
+│   │       │   │       └── urllib3 
+│   │       │   └── zstandard 
+│   │       ├── packaging 
+│   │       ├── pydantic 
+│   │       │   ├── annotated-types 
+│   │       │   ├── pydantic_core 
+│   │       │   │   └── typing_extensions 
+│   │       │   ├── typing_extensions 
+│   │       │   └── typing-inspection 
+│   │       │       └── typing_extensions 
+│   │       ├── PyYAML 
+│   │       ├── tenacity 
+│   │       └── typing_extensions 
+│   ├── langsmith 
+│   │   ├── httpx 
+│   │   │   ├── anyio 
+│   │   │   │   ├── idna 
+│   │   │   │   ├── sniffio 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── certifi 
+│   │   │   ├── httpcore 
+│   │   │   │   ├── certifi 
+│   │   │   │   └── h11 
+│   │   │   └── idna 
+│   │   ├── orjson 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── requests 
+│   │   │   ├── certifi 
+│   │   │   ├── charset-normalizer 
+│   │   │   ├── idna 
+│   │   │   └── urllib3 
+│   │   ├── requests-toolbelt 
+│   │   │   └── requests 
+│   │   │       ├── certifi 
+│   │   │       ├── charset-normalizer 
+│   │   │       ├── idna 
+│   │   │       └── urllib3 
+│   │   └── zstandard 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── PyYAML 
+│   ├── requests 
+│   │   ├── certifi 
+│   │   ├── charset-normalizer 
+│   │   ├── idna 
+│   │   └── urllib3 
+│   └── SQLAlchemy 
+│       ├── greenlet 
+│       └── typing_extensions 
+├── langchain-core 
+│   ├── jsonpatch 
+│   │   └── jsonpointer 
+│   ├── langsmith 
+│   │   ├── httpx 
+│   │   │   ├── anyio 
+│   │   │   │   ├── idna 
+│   │   │   │   ├── sniffio 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── certifi 
+│   │   │   ├── httpcore 
+│   │   │   │   ├── certifi 
+│   │   │   │   └── h11 
+│   │   │   └── idna 
+│   │   ├── orjson 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── requests 
+│   │   │   ├── certifi 
+│   │   │   ├── charset-normalizer 
+│   │   │   ├── idna 
+│   │   │   └── urllib3 
+│   │   ├── requests-toolbelt 
+│   │   │   └── requests 
+│   │   │       ├── certifi 
+│   │   │       ├── charset-normalizer 
+│   │   │       ├── idna 
+│   │   │       └── urllib3 
+│   │   └── zstandard 
+│   ├── packaging 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── PyYAML 
+│   ├── tenacity 
+│   └── typing_extensions 
+├── mypy 
+│   ├── mypy_extensions 
+│   └── typing_extensions 
+└── requests 
+    ├── certifi 
+    ├── charset-normalizer 
+    ├── idna 
+    └── urllib3 
+langgraph==0.4.1
+├── langchain-core 
+│   ├── jsonpatch 
+│   │   └── jsonpointer 
+│   ├── langsmith 
+│   │   ├── httpx 
+│   │   │   ├── anyio 
+│   │   │   │   ├── idna 
+│   │   │   │   ├── sniffio 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── certifi 
+│   │   │   ├── httpcore 
+│   │   │   │   ├── certifi 
+│   │   │   │   └── h11 
+│   │   │   └── idna 
+│   │   ├── orjson 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── requests 
+│   │   │   ├── certifi 
+│   │   │   ├── charset-normalizer 
+│   │   │   ├── idna 
+│   │   │   └── urllib3 
+│   │   ├── requests-toolbelt 
+│   │   │   └── requests 
+│   │   │       ├── certifi 
+│   │   │       ├── charset-normalizer 
+│   │   │       ├── idna 
+│   │   │       └── urllib3 
+│   │   └── zstandard 
+│   ├── packaging 
+│   ├── pydantic 
+│   │   ├── annotated-types 
+│   │   ├── pydantic_core 
+│   │   │   └── typing_extensions 
+│   │   ├── typing_extensions 
+│   │   └── typing-inspection 
+│   │       └── typing_extensions 
+│   ├── PyYAML 
+│   ├── tenacity 
+│   └── typing_extensions 
+├── langgraph-checkpoint 
+│   ├── langchain-core 
+│   │   ├── jsonpatch 
+│   │   │   └── jsonpointer 
+│   │   ├── langsmith 
+│   │   │   ├── httpx 
+│   │   │   │   ├── anyio 
+│   │   │   │   │   ├── idna 
+│   │   │   │   │   ├── sniffio 
+│   │   │   │   │   └── typing_extensions 
+│   │   │   │   ├── certifi 
+│   │   │   │   ├── httpcore 
+│   │   │   │   │   ├── certifi 
+│   │   │   │   │   └── h11 
+│   │   │   │   └── idna 
+│   │   │   ├── orjson 
+│   │   │   ├── packaging 
+│   │   │   ├── pydantic 
+│   │   │   │   ├── annotated-types 
+│   │   │   │   ├── pydantic_core 
+│   │   │   │   │   └── typing_extensions 
+│   │   │   │   ├── typing_extensions 
+│   │   │   │   └── typing-inspection 
+│   │   │   │       └── typing_extensions 
+│   │   │   ├── requests 
+│   │   │   │   ├── certifi 
+│   │   │   │   ├── charset-normalizer 
+│   │   │   │   ├── idna 
+│   │   │   │   └── urllib3 
+│   │   │   ├── requests-toolbelt 
+│   │   │   │   └── requests 
+│   │   │   │       ├── certifi 
+│   │   │   │       ├── charset-normalizer 
+│   │   │   │       ├── idna 
+│   │   │   │       └── urllib3 
+│   │   │   └── zstandard 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── PyYAML 
+│   │   ├── tenacity 
+│   │   └── typing_extensions 
+│   └── ormsgpack 
+├── langgraph-prebuilt 
+│   ├── langchain-core 
+│   │   ├── jsonpatch 
+│   │   │   └── jsonpointer 
+│   │   ├── langsmith 
+│   │   │   ├── httpx 
+│   │   │   │   ├── anyio 
+│   │   │   │   │   ├── idna 
+│   │   │   │   │   ├── sniffio 
+│   │   │   │   │   └── typing_extensions 
+│   │   │   │   ├── certifi 
+│   │   │   │   ├── httpcore 
+│   │   │   │   │   ├── certifi 
+│   │   │   │   │   └── h11 
+│   │   │   │   └── idna 
+│   │   │   ├── orjson 
+│   │   │   ├── packaging 
+│   │   │   ├── pydantic 
+│   │   │   │   ├── annotated-types 
+│   │   │   │   ├── pydantic_core 
+│   │   │   │   │   └── typing_extensions 
+│   │   │   │   ├── typing_extensions 
+│   │   │   │   └── typing-inspection 
+│   │   │   │       └── typing_extensions 
+│   │   │   ├── requests 
+│   │   │   │   ├── certifi 
+│   │   │   │   ├── charset-normalizer 
+│   │   │   │   ├── idna 
+│   │   │   │   └── urllib3 
+│   │   │   ├── requests-toolbelt 
+│   │   │   │   └── requests 
+│   │   │   │       ├── certifi 
+│   │   │   │       ├── charset-normalizer 
+│   │   │   │       ├── idna 
+│   │   │   │       └── urllib3 
+│   │   │   └── zstandard 
+│   │   ├── packaging 
+│   │   ├── pydantic 
+│   │   │   ├── annotated-types 
+│   │   │   ├── pydantic_core 
+│   │   │   │   └── typing_extensions 
+│   │   │   ├── typing_extensions 
+│   │   │   └── typing-inspection 
+│   │   │       └── typing_extensions 
+│   │   ├── PyYAML 
+│   │   ├── tenacity 
+│   │   └── typing_extensions 
+│   └── langgraph-checkpoint 
+│       ├── langchain-core 
+│       │   ├── jsonpatch 
+│       │   │   └── jsonpointer 
+│       │   ├── langsmith 
+│       │   │   ├── httpx 
+│       │   │   │   ├── anyio 
+│       │   │   │   │   ├── idna 
+│       │   │   │   │   ├── sniffio 
+│       │   │   │   │   └── typing_extensions 
+│       │   │   │   ├── certifi 
+│       │   │   │   ├── httpcore 
+│       │   │   │   │   ├── certifi 
+│       │   │   │   │   └── h11 
+│       │   │   │   └── idna 
+│       │   │   ├── orjson 
+│       │   │   ├── packaging 
+│       │   │   ├── pydantic 
+│       │   │   │   ├── annotated-types 
+│       │   │   │   ├── pydantic_core 
+│       │   │   │   │   └── typing_extensions 
+│       │   │   │   ├── typing_extensions 
+│       │   │   │   └── typing-inspection 
+│       │   │   │       └── typing_extensions 
+│       │   │   ├── requests 
+│       │   │   │   ├── certifi 
+│       │   │   │   ├── charset-normalizer 
+│       │   │   │   ├── idna 
+│       │   │   │   └── urllib3 
+│       │   │   ├── requests-toolbelt 
+│       │   │   │   └── requests 
+│       │   │   │       ├── certifi 
+│       │   │   │       ├── charset-normalizer 
+│       │   │   │       ├── idna 
+│       │   │   │       └── urllib3 
+│       │   │   └── zstandard 
+│       │   ├── packaging 
+│       │   ├── pydantic 
+│       │   │   ├── annotated-types 
+│       │   │   ├── pydantic_core 
+│       │   │   │   └── typing_extensions 
+│       │   │   ├── typing_extensions 
+│       │   │   └── typing-inspection 
+│       │   │       └── typing_extensions 
+│       │   ├── PyYAML 
+│       │   ├── tenacity 
+│       │   └── typing_extensions 
+│       └── ormsgpack 
+├── langgraph-sdk 
+│   ├── httpx 
+│   │   ├── anyio 
+│   │   │   ├── idna 
+│   │   │   ├── sniffio 
+│   │   │   └── typing_extensions 
+│   │   ├── certifi 
+│   │   ├── httpcore 
+│   │   │   ├── certifi 
+│   │   │   └── h11 
+│   │   └── idna 
+│   └── orjson 
+├── pydantic 
+│   ├── annotated-types 
+│   ├── pydantic_core 
+│   │   └── typing_extensions 
+│   ├── typing_extensions 
+│   └── typing-inspection 
+│       └── typing_extensions 
+└── xxhash 
+pillow==11.2.1
